@@ -1,0 +1,5 @@
+*.prefab -crlf -diff
+*.scene -crlf -diff
+*.prefab.meta -crlf -diff
+*.scene.meta -crlf -diff
+GROUND.BinMeshTree.asset -crlf -diff
