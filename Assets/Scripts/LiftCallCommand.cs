@@ -1,7 +1,14 @@
-﻿using UnityEngine.EventSystems;
+﻿using System;
 
+[Serializable]
 public class LiftCallCommand
 {
-   public MoveDirection Direction;
-   public int Floor;
+   public  DirectionType Direction;
+   public  int Floor;
+
+   public LiftCallCommand(int floor, DirectionType direction)
+   {
+      Floor = floor;
+      Direction = direction;
+   }
 }

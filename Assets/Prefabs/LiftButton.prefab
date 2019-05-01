@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 6987536052284046366}
   - component: {fileID: 6987536052284046367}
   - component: {fileID: 6987536052284046352}
+  - component: {fileID: -8817378105560013013}
   m_Layer: 5
-  m_Name: FloorSelectionButton
+  m_Name: LiftButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121,6 +122,22 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &-8817378105560013013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6987536052284046354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c354b4ec831d96e47abdd5e661c5d5d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _higlightedColor: {r: 0.8235294, g: 0, b: 0, a: 1}
+  _floorText: {fileID: 6987536052322182739}
+  _floorSelectButton: {fileID: 6987536052284046352}
+  _liftButtonImage: {fileID: 6987536052284046367}
 --- !u!1 &6987536052322182741
 GameObject:
   m_ObjectHideFlags: 0

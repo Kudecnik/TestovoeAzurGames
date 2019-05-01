@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4327692989576484936}
   - component: {fileID: 4327692989576484939}
   - component: {fileID: 4327692989576484938}
+  - component: {fileID: 4338468225745059826}
   m_Layer: 5
   m_Name: StopButton
   m_TagString: Untagged
@@ -121,6 +122,19 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &4338468225745059826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327692989576484940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3c08b929e4aa6744aab171b4965b467, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _stopButton: {fileID: 4327692989576484938}
 --- !u!1 &4910533028791628910
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,7 +147,7 @@ GameObject:
   - component: {fileID: 4874218679961008590}
   - component: {fileID: 6164603293913633564}
   m_Layer: 5
-  m_Name: Text
+  m_Name: StopButtonText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
